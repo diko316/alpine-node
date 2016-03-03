@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine
+FROM sillelien/base-alpine
 
 RUN apk update && \
     apk add --update alpine-sdk && \
